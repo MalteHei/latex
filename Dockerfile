@@ -10,4 +10,5 @@ RUN pacman -Syu --noconfirm \
 RUN pacman -Syu --noconfirm \
 	make
 
+ENTRYPOINT [ "/bin/sh", "-c" ]
 CMD latexmk --version
