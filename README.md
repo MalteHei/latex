@@ -1,4 +1,4 @@
-# maltehei/latex
+# [maltehei/latex](https://hub.docker.com/r/maltehei/latex)
 
 This image is based on [archlinux](https://hub.docker.com/_/archlinux/) and provides these packages:
 
