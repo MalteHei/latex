@@ -12,5 +12,8 @@ ENV PATH="${PATH}:/usr/bin/vendor_perl"
 RUN pacman -Syu --noconfirm \
 	make
 
+RUN pacman -Syu --noconfirm \
+	inotify-tools
+
 ENTRYPOINT [ "/bin/sh", "-c" ]
 CMD latexmk --version
